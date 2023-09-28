@@ -1,0 +1,36 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+prompt for entry1
+	if INT list.append
+	else discard, prompt for entry1
+
+if array contains entry1, prompt for entry2
+	else prompt for entry1
+	if INT list.append
+		else discard, prompt for entry2
+
+if list contains entry2 
+	print (entry1+entry2)
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+prompt for entry
+	if INT, entry/2
+		if INT, print EVEN
+		else, print ODD
+
+// Exercise 3: Write pseudo code that will perform the following.
+
+prompt for entry1,entry2,entry3,entry4,entry5
+	list.append(entries)
+
+print "The mean average of the entered numbers is: "(entry1+entry2+entry3+entry4+entry5)/5
+	
+print "The lowest number entered is: "(min(list))
+print "The largest number entered is: "(max(list))
+
+
+
+
+-- END --
